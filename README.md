@@ -13,20 +13,6 @@ I could not get another For loop to work in this project no matter what I tried.
 
 As stated above, the length of my list was 3, so I printed off the results one at a time. First the total votes, then the candidates with how many votes they got and what percentage they got. Then, I printed off the winner. After that, I used the "with open" operation to put my results into a file and exported it.
 
-The reults displayed should be:
-
-Election Results
--------------------------
-Total Votes: 369711
--------------------------
-Charles Casper Stockham: 23.049% 85213
-Diana DeGette: 73.812% 272892
-Raymon Anthony Doane: 3.139% 11606
--------------------------
-Winner: Diana DeGette
--------------------------
-
-
 # PyBank section
 
 I started off by declaring my variables. My variables were months (to keep track of all the months), profit_change (to keep track of the profit changes), total (to keep track of my totals) and 2 variables to be used in a while loop. I had a problem in the assignment where a second for loop would just never be read. I tried it with a while loop and it worked.
@@ -36,12 +22,3 @@ After readinf in my file I removed the header. I then appeneded the months and t
 After I got my necessary information I then calculated all my profit changes in a while loop. I then appended the values to their profit changes.
 
 To make my printed out results easier for me to read I calculated out all the values I needed. After I calculated them out I printed them out and then used a "with open" to export it.
-
-The results displayed should be:
-
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $22564198
-Greatest Increase in Profits: $1862002
-Greatest Decrease in Profits: $-1825558
